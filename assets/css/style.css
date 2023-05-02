@@ -1,0 +1,175 @@
+@font-face {
+  font-family: "Oswald";
+  src: url("/assets/Oswald/Oswald-VariableFont_wght.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #f0f0f0;
+}
+
+header {
+  width: 100%;
+  min-width: 150px;
+  height: 100%;
+  background-color: #0081c9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  margin-left: 40%;
+}
+
+.logo img {
+  width: 30%;
+}
+
+nav {
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+nav .nav-link {
+  color: white;
+  margin-left: 1rem;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: red;
+}
+
+.Contenido {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  height: 65vh;
+}
+
+.titulo {
+  margin-bottom: 0.5rem;
+  font-size: 3rem;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  color: #ffc93c;
+}
+
+.Descri {
+  font-size: small;
+  font-family: Oswald;
+  font-weight: 600;
+  margin: 0 2rem;
+}
+
+.btn {
+  margin: 2rem;
+  width: 50%;
+  height: 3rem;
+  background: #0081c9;
+  color: rgb(255, 255, 255);
+  font-size: 2rem;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  border-radius: 5%;
+ 
+}
+
+.btn:hover{
+  background: #fff704;
+  color: black;
+}
+
+.desweb {
+  width: 80%;
+}
+
+.Servicios {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10rem;
+}
+
+.titulo-servicios {
+
+  margin-left: 7rem; 
+  font-size: 3rem;
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+}
+.card {
+  width: 17rem;
+  height: 12rem;
+  margin: 1rem;
+  -webkit-box-shadow: 7px 10px 13px -5px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 7px 10px 13px -5px rgba(0, 0, 0, 0.4);
+    box-shadow: 7px 10px 13px -5px rgba(0, 0, 0, 0.4);
+
+}
+
+.card-img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-img img {
+  margin: 5px;
+  width: 50%;
+}
+
+.card-img figcaption {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.99rem;
+  color: white;
+  margin-top: 2px;
+}
+
+.card1 .card-img .card-img__web {
+  font-size: 0.88rem;
+}
+
+.card-img :hover {
+  color: rgb(0, 0, 0);
+}
+.card1 {
+  background-color: #3d5656;
+}
+
+.card2 {
+  background-color: #1eaae7;
+}
+.card3 {
+  background-color: #359b85;
+}
+.card4 {
+  background-color: #d61355;
+}
+.card5 {
+  background-color: #9dce4d;
+}
+.card6 {
+  background-color: #a555ec;
+}
+
+footer{
+  height: 5vh;
+  background-color: black;
+}

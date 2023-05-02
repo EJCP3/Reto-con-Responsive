@@ -1,0 +1,52 @@
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 0;
+}
+
+.nav{
+    display: flex;
+    
+}
+
+nav .nav-link{
+    margin-right: 2rem;
+}
+
+.Descri{
+    font-size: 2rem;
+}
+
+.titulo{
+    font-size: 7rem;
+}
+
+.btn{
+  width: 25%;
+}
+
+
+.titulo-servicios{
+    font-size: 5rem;
+    margin-left: 40%;
+}
+
+.desweb{
+    margin-top: 3%;
+    width: 60%;
+
+}
+.Servicios{
+    width: 50%;
+    margin: 0 auto 10%;
+
+   
+}
